@@ -1,0 +1,58 @@
+body{
+    font-family: verdana;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    color: burlywood;
+
+}
+header h2{
+    position: absolute;
+    margin-top: 10px;
+    left: 5%;
+}
+header{
+    height: 10vh;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav a{
+    position: relative;
+    left: 65%;
+    top: 20px;
+    right: 0%;
+    color: burlywood;
+    text-decoration: moccasin;
+    margin-right: 20px;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
